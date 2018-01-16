@@ -18,8 +18,6 @@ Basic cycle:
 - `git commit -m "Describe what you did, briefly."
 - `git push`
 
-
 ## Markdown
 
-
-
+[Link to Markdown on Wikipedia](https://en.wikipedia.org/wiki/Markdown)
