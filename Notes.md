@@ -1,3 +1,17 @@
+
+## Misc.
+
+*Wealth of Nations* vol. 1: The text of Smith starts on line 515 of the HTML file.
+
+Next steps:
+
+1. Scroll through `WoN_1.html`, starting at line 515, and see what marked-up content is there. We know:
+  - marginal notes
+  - footnotes and their references
+  - page-break stuff
+1. See where the footnotes (themselves) start. Are they all at the end of the file?
+1. We will pull out into a separate file the Adam Smith part of that file, for further processing.
+
 ## Tasks
 
 - Citation of Volumes, Books, Paragraphs
@@ -13,6 +27,10 @@
 
 - Separation of Concerns
 - Citation
+- Transformations:
+  - Basic find/replace
+  - Regular Expressions (supercharged find/replace)
+  - Scripting
 
 ## Links
 
