@@ -21,7 +21,20 @@ Next steps:
 - Footnotes aligned with paragraph-level citation scheme
 - Tokenization and Tokenized Analytical Edition
 - Footnotes aligned to tokenized edition
-- Translation of page-referenes in notes to URN references
+- Translation of page-references in notes to URN references
+- Numbers to decimals universally? (exemplar?)
+
+## Data for Testing
+
+- Vol 1 starts at l.515
+- Vol 2 start at l.325
+- Use the TOC to validate sections
+- Confirm that number of footnotes == number of refs
+- Confirm that number of footnotes extracted == number of footnotes
+- Confirm that number of footnote refs extracted == number of footnotes
+- Confirm number of pages in original edition
+
+
 
 ## Concepts
 

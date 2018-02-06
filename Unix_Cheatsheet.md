@@ -8,6 +8,22 @@
 - `pwd` = "print working directory"
 - `ls` = "list files in the current directory"
 
+## Moving and Renaming
+
+- `cp fileA.txt fileB.txt` = "make a copy of `fileA.txt` named `fileB.txt`"
+- `mv fileA.txt fileB.txt` = "move (i.e. rename) `fileA.txt` to `fileB.txt`"
+
+## GREP
+
+Search for all marginal notes in the file `WoN_1.html`, output to a new file names `margins.txt` (The `-o` means "don't give me the whole line where you found this, just ('Only') the thing I identified."):
+
+> `grep -o '<span class="type-margin"><span>[^<]\+</span></span>' WoN_1.html > margins.txt`
+
+## Piping and Redirecting
+
+- Instead of dumping output to the screen, write to a file with `… > [filename.txt]`
+- For better feedback, get fancy with: `… | tee [filename]`
+
 ## Git Commands
 
 Basic cycle:
